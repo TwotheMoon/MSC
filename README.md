@@ -1,21 +1,28 @@
-# MSC - Muscle Challenge
+# MSC - Muscle Challenge - JSP + 오라클 DB 로 제작한 포트폴리오
 Make a health SNS site built using JSP, Oracle DB 
 
-크로스 플랫폼을 생각하여 pc web 에서 보는 view와 휴대기기 에서 볼 수 있는 view를 css와 BootStrap 그리고 jQuery를 이용해 반응형으로 제작 
+크로스 플랫폼을 생각하여 pc web 에서 보는 view와 휴대기기 에서 볼 수 있는 view를 css와 BootStrap 그리고 jQuery를 이용해 반응형으로 제작
 
-pc web view - header, section, footer 3단 형식 
+<b>pc web view</b> - header, section, footer 3단 형식 
 
-  - header : 회사소개, 회원가입, 스폰서 메뉴바(nav는 header에 포함되어 jQuery를 이용해 오른쪽에서 메뉴버튼을 클릭할시 왼쪽으로 슬라이드로 나타난다.)
-
-
-  - nav : 로그인(로그인시 로그아웃 버튼 활성화, 유저 아이디표시), 회원가입, 문의사항, 회사소개, 스폰서, 스마트폰 화면전환(페이스북 참고)
+  - header : 회사소개, 회원가입, 스폰서, shop(결제 시스템x ) 메뉴바(nav는 header에 포함되어 jQuery를 이용해 오른쪽에서 메뉴버튼을 클릭할시 왼쪽으로 슬라이드로 나타난다.)
+     - 회사소개 : 적재적소 이미지와 깔끔한 폰트로 제작, 본사 위치 다음 맵 api 이용
+     - 회원가입 : id, pw, pw-confirm, name, birth, email, adress, 3대 즁량 데이터
+     - 스폰서 : 여러 스포츠 제품 이미지 소개글
+     - shop : 스폰서 광고 제품 판매 사이트 링크
+     - nav : 로그인(로그인시 로그아웃 버튼 활성화, 유저 아이디표시), 회원가입, 문의사항, 회사소개, 스폰서, 스마트폰 화면전환(페이스북 참고)
 
   -section : 2단구성으로 section1 = 캐러셀을 이용해 이미지 슬라이드, section2 = 본문내용 (M.S.C 기업 특징 등의 정보)
   
   -footer : 유틸리티 링크(회사소개, 인재채용, 공지사항(게시판), 고객의소리(게시판), 이용약관, 개인정보처리방침), 사업자 정보(회사명, 사업자번호, 대표자, 연락처, 주소 등...)
   
-  - DB : 회원정보테이블, 광고제품테이블, 공지사항테이블, 고객의소리테이블, SNS 게시글 테이블( + 댓글 테이블 따로 구축) 
+  - DB : 회원정보테이블, 광고제품테이블, 공지사항테이블, 고객의소리테이블, SNS 게시글 테이블( + 댓글 테이블 따로 구축)
 
+
+<bSNS web view</b>
+  - header : 폰트어썸 아이콘을 이용 모든피드, 내피드, 설정(회원정보)
+
+  - section : 게시글 출력(댓글 drop down)
 
 참조할 외부 라이브러리 및 api
 - Bootstrap (캐러셀 제작용) 기본 뷰는 한땀한땀 html css 로 직접 작업

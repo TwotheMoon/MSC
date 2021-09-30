@@ -34,9 +34,9 @@ Make a health SNS site built using JSP, Oracle DB
 
 
 <b>참고할 사이트</b>
-  -Strava
-  -Instagram or Facebook
-  -FatSecreat
+  - Strava
+  - Instagram or Facebook
+  - FatSecreat
 
 
 <b>참조할 외부 라이브러리 및 api</b>

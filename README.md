@@ -1,4 +1,4 @@
-# MSC - Muscle Challenge - JSP + 오라클 DB 로 제작한 포트폴리오
+# MSC - Muscle Challenge - JSP + Oracle DB 포트폴리오
 Make a health SNS site built using JSP, Oracle DB 
 
 크로스 플랫폼을 생각하여 pc web 에서 보는 view와 휴대기기 에서 볼 수 있는 view를 css와 BootStrap 그리고 jQuery를 이용해 반응형으로 제작
